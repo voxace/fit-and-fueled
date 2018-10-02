@@ -1,31 +1,39 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app light>
+    <v-container>
+      <app-header/>
+      <v-content>
+         <keep-alive include="home">
+           <router-view/>
+         </keep-alive>
+        <app-widgets/>
+        <app-footer/>
+      </v-content>
+    </v-container>
+  </v-app>
 </template>
 
+<script>
+  import Header from '@/components/Header.vue'
+  import Widgets from '@/components/Widgets.vue'
+  import Footer from '@/components/Footer.vue'
+
+  export default {
+    name: 'App',
+    components: {
+      appHeader: Header,
+      appWidgets: Widgets,
+      appFooter: Footer
+    }
+  }
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  .application--wrap {
+    background: #81d742 url('assets/bg-pattern.jpg') center top repeat;
+  }
+  .v-content {
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
 </style>
