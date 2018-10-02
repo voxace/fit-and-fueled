@@ -47,7 +47,7 @@
 
             </v-layout>
 
-            <v-layout row wrap justify-center>
+            <v-layout row wrap justify-center class="hidden-sm-only">
               <v-flex xs12>
                 <img :src="associations" class="responsive"/>
               </v-flex>
@@ -78,6 +78,16 @@
           </v-flex>
 
         </v-layout>
+
+        <v-layout row wrap justify-center class="hidden-xs-only hidden-md-and-up">
+          <v-flex xs12>
+            <img :src="associations" class="responsive"/>
+          </v-flex>
+          <v-flex xs12>
+            <h2 class="display-1">Health fund rebates available!</h2>
+          </v-flex>
+        </v-layout>
+
       </v-container>
     </section>
 
