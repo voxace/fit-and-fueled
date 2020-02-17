@@ -153,7 +153,7 @@
               <h4>SAVE $90</h4>
               <p class="body-1 my-1 text-xs-center">Initial dietary consult</p>
               <p class="body-1 my-1 text-xs-center">Initial 1 hour PT consult</p>
-              <p class="body-1 my-1 text-xs-center">4 x 30 min dietary follow-up sessions</p>
+              <p class="body-1 my-1 text-xs-center">+ 4 Additional dietary reviews</p>
               <p class="body-1 my-1 text-xs-center">+ 11 Additional 45 min PT sessions</p>
             </div>
           </v-card-text>
