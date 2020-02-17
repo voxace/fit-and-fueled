@@ -85,7 +85,6 @@
               <h4>SAVE $30</h4>
               <p class="body-1 my-1 text-xs-center">Initial dietary consult</p>
               <p class="body-1 my-1 text-xs-center">Initial 1 hour PT consult</p>
-              <p class="body-1 my-1 text-xs-center"> - </p>
               <p class="body-1 my-1 text-xs-center">+ 1 Additional dietary review</p>
               <p class="body-1 my-1 text-xs-center">+ 1 Additional 45 min PT session</p>
             </div>
