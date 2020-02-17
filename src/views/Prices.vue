@@ -87,6 +87,7 @@
               <p class="body-1 my-1 text-xs-center">Initial 1 hour PT consult</p>
               <p class="body-1 my-1 text-xs-center"> - </p>
               <p class="body-1 my-1 text-xs-center">+ 1 Additional dietary review</p>
+              <p class="body-1 my-1 text-xs-center">+ 1 Additional 45 min PT session</p>
             </div>
           </v-card-text>
           <v-card-actions class="justify-center">
@@ -115,12 +116,12 @@
           </v-card-title>
           <v-card-text class="justify-center">
             <div>
-              <h1 class="display-2 mb-1">$319</h1>
+              <h1 class="display-2 mb-1">$279</h1>
               <h4>SAVE $50</h4>
               <p class="body-1 my-1 text-xs-center">Initial dietary consult</p>
               <p class="body-1 my-1 text-xs-center">Initial 1 hour PT consult</p>
-              <p class="body-1 my-1 text-xs-center">1 30 min dietary follow-up session</p>
-              <p class="body-1 my-1 text-xs-center">+ 1 Additional 45 min PT session</p>
+              <p class="body-1 my-1 text-xs-center">+ 1 Additional dietary review</p>
+              <p class="body-1 my-1 text-xs-center">+ 3 Additional 45 min PT sessions</p>
             </div>
           </v-card-text>
           <v-card-actions class="justify-center">
@@ -150,11 +151,11 @@
           <v-card-text class="justify-center">
             <div>
               <h1 class="display-2 mb-1">$799</h1>
-              <h4>SAVE $100</h4>
+              <h4>SAVE $90</h4>
               <p class="body-1 my-1 text-xs-center">Initial dietary consult</p>
               <p class="body-1 my-1 text-xs-center">Initial 1 hour PT consult</p>
               <p class="body-1 my-1 text-xs-center">4 x 30 min dietary follow-up sessions</p>
-              <p class="body-1 my-1 text-xs-center">+ 1 Additional 45 min PT session</p>
+              <p class="body-1 my-1 text-xs-center">+ 11 Additional 45 min PT sessions</p>
             </div>
           </v-card-text>
           <v-card-actions class="justify-center">

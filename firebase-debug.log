@@ -33,3 +33,5 @@
 [debug] [2020-01-19T23:13:48.649Z] [hosting] uploads queued: 1
 [debug] [2020-01-19T23:15:39.590Z] [uploadQueue] Retrying task 2f00fdf0cdc485d73fb82d2f8ee32cd7c1bb112619c9c263940efa7674bf8410
 [debug] [2020-01-19T23:17:30.905Z] [uploadQueue] Retrying task 2f00fdf0cdc485d73fb82d2f8ee32cd7c1bb112619c9c263940efa7674bf8410
+[debug] [2020-01-19T23:19:23.033Z] [uploadQueue] Retrying task 2f00fdf0cdc485d73fb82d2f8ee32cd7c1bb112619c9c263940efa7674bf8410
+[debug] [2020-01-19T23:21:16.767Z] [uploadQueue] Retrying task 2f00fdf0cdc485d73fb82d2f8ee32cd7c1bb112619c9c263940efa7674bf8410
