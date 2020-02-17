@@ -174,84 +174,89 @@
 
 <script>
 export default {
-  name: 'prices',
-  data () {
+  name: "prices",
+  data() {
     return {
       headers1: [
-        { text: 'Description', align: 'left', sortable: false, value: 'description' },
-        { text: 'Price', align: 'right', sortable: false, value: 'price' }
+        {
+          text: "Description",
+          align: "left",
+          sortable: false,
+          value: "description"
+        },
+        { text: "Price", align: "right", sortable: false, value: "price" }
       ],
       data1: [
         {
           value: false,
-          description: 'Initial Dietetic Consult (1 hour)',
-          price: '$80'
+          description: "Initial Dietetic Consult (1 hour)",
+          price: "$80"
         },
         {
           value: false,
-          description: 'Dietetic Review (30 min)',
-          price: '$40'
+          description: "Dietetic Review (30 min)",
+          price: "$40"
         },
         {
           value: false,
-          description: 'Dietetic Review (5 pack)',
-          price: '$175'
+          description: "Dietetic Review (5 pack)",
+          price: "$175"
         },
         {
           value: false,
-          description: '1 Week Custom Meal Plan (includes initial consult)',
-          price: '$150'
-        },
-        {
-          value: false,
-          description: 'Nutrition Overhaul (includes initial consult, dietary analysis, 1 week custom meal plan and one month unlimited nutrition support via telephone/email)',
-          price: '$400'
-        },
+          description: "1 Week Custom Meal Plan (includes initial consult)",
+          price: "$150"
+        }
       ],
       headers2: [
-        { text: 'Description', align: 'left', sortable: false, value: 'description' },
-        { text: 'Price ($)', align: 'right', sortable: false, value: 'single' }
+        {
+          text: "Description",
+          align: "left",
+          sortable: false,
+          value: "description"
+        },
+        { text: "Price ($)", align: "right", sortable: false, value: "single" }
       ],
       data2: [
         {
           value: false,
-          description: '45 min PT session (1-on-1)',
-          single: '$50'
+          description: "45 min PT session (1-on-1)",
+          single: "$50"
         },
         {
           value: false,
-          description: '60 min PT session (1-on-1)',
-          single: '$60'
+          description: "60 min PT session (1-on-1)",
+          single: "$60"
         },
         {
           value: false,
-          description: '45 min PT session (2-on-1)',
-          single: '$30 each'
+          description: "45 min PT session (2-on-1)",
+          single: "$30 each"
         },
         {
           value: false,
-          description: '60 min PT session (2-on-1)',
-          single: '$35 each'
+          description: "60 min PT session (2-on-1)",
+          single: "$35 each"
         },
         {
           value: false,
-          description: '45 min PT session (3-on-1)',
-          single: '$20 each'
+          description: "45 min PT session (3-on-1)",
+          single: "$20 each"
         },
         {
           value: false,
-          description: '60 min PT session (3-on-1)',
-          single: '$25 each'
+          description: "60 min PT session (3-on-1)",
+          single: "$25 each"
         }
       ]
-    }
+    };
   },
   methods: {
-    findOutMore () {
-      this.$router.push('contact');
+    findOutMore() {
+      this.$router.push("contact");
     }
   }
-}
+};
 </script>
 
 <style>
